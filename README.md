@@ -7,7 +7,7 @@ The solution consists of the following 4 projects.
  3. InsightBigPurpleBank.Domain
  4. InsightBigPurpleBank.Infrastructure
 
-All the projects are built on .NET 5.0.
+All the projects are built on .NET 6.0.
 
 ## 1. InsightBigPurpleBank.Api
 
