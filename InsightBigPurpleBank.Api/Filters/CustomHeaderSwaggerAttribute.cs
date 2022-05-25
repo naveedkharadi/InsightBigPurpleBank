@@ -6,6 +6,13 @@ namespace InsightBigPurpleBank.Api.Filters
 {
     public class CustomHeaderSwaggerAttribute : IOperationFilter
     {
+        /// <summary>
+        /// Operation filter to support setting header parameters from Swagger UI. 
+        /// This method can be further customized to control the visibility different headers for different operations.
+        /// Currently, all API operations from Swagger UI will reqruie a value for "x-v" header.
+        /// </summary>
+        /// <param name="operation"><see cref="OpenApiOperation"/></param>
+        /// <param name="context"><see cref="OperationFilterContext"/></param>
         public void Apply(OpenApiOperation operation, OperationFilterContext context)
         {
             if (operation.Parameters == null)
