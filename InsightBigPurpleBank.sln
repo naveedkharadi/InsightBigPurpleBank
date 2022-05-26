@@ -7,9 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsightBigPurpleBank.Api", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsightBigPurpleBank.Domain", "InsightBigPurpleBank.Domain\InsightBigPurpleBank.Domain.csproj", "{6492EE2D-164A-4083-B050-5E62388C0805}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsightBigPurpleBank.Infrastructure", "InsightBigPurpleBank.Infrastructure\InsightBigPurpleBank.Infrastructure.csproj", "{053B31AF-E319-4408-BBCC-B46FEEFCD27E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsightBigPurpleBank.Infrastructure", "InsightBigPurpleBank.Infrastructure\InsightBigPurpleBank.Infrastructure.csproj", "{053B31AF-E319-4408-BBCC-B46FEEFCD27E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsightBigPurpleBank.ApiTests", "InsightBigPurpleBank.ApiTests\InsightBigPurpleBank.ApiTests.csproj", "{3115400E-F0F1-48D6-814D-8A9331206ADE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsightBigPurpleBank.ApiTests", "InsightBigPurpleBank.ApiTests\InsightBigPurpleBank.ApiTests.csproj", "{3115400E-F0F1-48D6-814D-8A9331206ADE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{40DDF1A4-76F4-4432-864E-9A02562E6CBD}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\Big Purple Bank.pptx = ..\..\..\..\Downloads\Big Purple Bank.pptx
+		..\..\..\..\Downloads\InsightBigPurpleBank.vsdx = ..\..\..\..\Downloads\InsightBigPurpleBank.vsdx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
